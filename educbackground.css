@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(239, 206, 144);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    max-width: 100%;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(180, 123, 16);
+    max-width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav li {
+    float: left;
+    padding: 20px;
+    font-family: 'Lucida Sans Unicode';
+    font-size: larger;
+}
+
+nav a:link {
+    color: aliceblue;
+}
+
+nav a:visited {
+    color: gold;
+}
+
+nav a:hover {
+    color: antiquewhite;
+    border-bottom: 2px solid gainsboro;
+}
+
+nav a:active {
+    color: black;
+    background-color: aqua;
+}
+
+article {
+    margin: auto;
+    width: 1200px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+h3 {
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+video {
+    width: 680px;
+    height: 400px;
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Lucida Sans Unicode';
+    font-size: medium;
+}
+
+article h1 {
+    font-family: 'Lucida Sans';
+    font-size: xx-large;
+    text-align: center;
+}
+
+article h1:hover {
+    font-family: 'Lucida Sans';
+    font-size: xx-large;
+    text-align: center;
+    transform: scale(1.5);
+}
+
+.space {
+    padding: 20px;
+}
+
+footer {
+    padding-top: 10px;
+    font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    font-size: small;
+    background-color: rgb(180, 123, 16);
+    color: aliceblue;
+}
+
+.socials {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.socials a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.socials a:hover {
+    text-decoration: none;
+    background-color: rgb(129, 182, 228);
+    color: brown;
+}
+
+.insta {
+    background: url('../images/image_sprite.png') no-repeat -948px -186px;
+    width: 123px;
+    height: 123px;
+    transform: scale(0.35);
+}
+
+.tiktok {
+    background: url('../images/image_sprite.png') no-repeat -948px -337px;
+    width: 123px;
+    height: 123px;
+    transform: scale(0.35);
+}
+
+.youtube {
+    background: url('../images/image_sprite.png') no-repeat -1551px -337px;
+    width: 123px;
+    height: 123px;
+    transform: scale(0.35);
+}
+
+.insta:hover,
+.tiktok:hover,
+.youtube:hover {
+    transform: scale(0.20);
+}
