@@ -152,21 +152,21 @@ footer {
 }
 
 .insta {
-    background: url('../images/image_sprite.png') no-repeat -948px -186px;
+    background: url('image_sprite.png') no-repeat -948px -186px;
     width: 123px;
     height: 123px;
     transform: scale(0.35);
 }
 
 .tiktok {
-    background: url('../images/image_sprite.png') no-repeat -948px -337px;
+    background: url('image_sprite.png') no-repeat -948px -337px;
     width: 123px;
     height: 123px;
     transform: scale(0.35);
 }
 
 .youtube {
-    background: url('../images/image_sprite.png') no-repeat -1551px -337px;
+    background: url('image_sprite.png') no-repeat -1551px -337px;
     width: 123px;
     height: 123px;
     transform: scale(0.35);
