@@ -97,7 +97,7 @@ article p {
 }
 
 .sprite:hover {
-    background: url('../images/animation.jpg') no-repeat -126px -142px;
+    background: url('animation.jpg') no-repeat -126px -142px;
     width: 226px;
     height: 234px;
     animation: cat 1s steps(3) infinite;
